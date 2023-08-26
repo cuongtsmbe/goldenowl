@@ -1,0 +1,98 @@
+.product-cart {
+    width: 95%;
+    height: 65px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+    z-index: 100;
+}
+
+.product-cart >.left > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    transform: rotate(335deg);
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+.product-cart > .right {
+    width: 260px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-cart > .right > .product-cart-action{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.product-cart > .right > .product-cart-action > .action-quantity{
+    width: 90px;
+    height: 30px ;
+    display: flex;
+    align-items: center;
+}
+
+.product-cart > .right > .product-cart-action > .action-quantity > Button{
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100% !important;
+    width: 20px; 
+    height: 20px;
+    padding: 5px;
+}
+
+
+.button-remove{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100% !important;
+    background-color: #F6C90E; /* Màu nền màu vàng */
+    width: 25px; /* Đảm bảo nút có kích thước cố định */
+    height: 25px;
+    padding: 5px; /* Tùy chỉnh padding cho phù hợp với kích thước nút */
+}
+.quantity{
+    width: 15px;
+    margin: 0px 6px;
+    font-size: 12px;
+}
+.product-cart > .right > .product-cart-action > Button > img{
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    color: #F6C90E;
+}
+
+.product-cart-name{
+    font-size: 10px;
+}
+
+.product-cart-price{
+    font-size: 11px;
+}
+
+Button:active{
+    background-color: #F6C90E !important;
+    color: #000 !important;
+}
+
+.product-cart.removed {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}

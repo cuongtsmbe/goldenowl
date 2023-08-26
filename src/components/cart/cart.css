@@ -1,0 +1,58 @@
+.card-i-cart{
+    width:250px;
+    height: 430px;
+    background-color: rgb(250, 250, 250);
+    overflow: scroll;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    z-index: 100;
+}
+
+
+.card-i-cart::-webkit-scrollbar-thumb {
+    background-color: #acabab;
+    border-radius: 3px; /* Bo góc của phần đậm của thanh cuộn */
+}
+
+.card-i-cart::-webkit-scrollbar-thumb:vertical {
+    width: 0px; /* Điều chỉnh chiều rộng của thanh cuộn dọc */
+}
+
+.card-i-cart::-webkit-scrollbar {
+    width: 0px; /* Điều chỉnh chiều rộng của thanh cuộn ngang */
+}
+
+.title-card{
+    height: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title-card >.icon,.title{
+   width: 100%;
+}
+
+.title-card > .title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.title-card >.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.title-card > .icon > img{
+    width: 40px;
+    max-width: 90%; /* Hình ảnh sẽ co dãn để vừa vặn trong khung */
+    height: auto; /* Đảm bảo tỷ lệ khung hình được duy trì */
+    padding-bottom: 5px;
+}
+
+span{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px; 
+}

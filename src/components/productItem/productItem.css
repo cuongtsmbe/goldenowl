@@ -1,0 +1,88 @@
+.product {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+.product-image{
+    border-radius: 35px;
+    height: 270px;
+}
+.product-image > img{
+    z-index: 100;
+    max-width: 90%; /* Hình ảnh sẽ co dãn để vừa vặn trong khung */
+    height: auto; /* Đảm bảo tỷ lệ khung hình được duy trì */
+    transform: rotate(335deg);
+}
+.product-action{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2px;
+    align-items: center;
+}
+
+.product-detail {
+    padding-top: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #777777;
+}
+
+.product-detail > .product-name{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.product-action > .product-price{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.product-add-to-cart{
+    background-color: #F6C90E;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-check-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100% !important;
+    background-color: #F6C90E; 
+    width: 25px; 
+    height: 25px;
+    padding: 5px;
+}
+
+.product-action > Button:hover {
+    background-color: #F6C90E !important;
+    color: #000 !important; /* Màu chữ không bị thay đổi khi hover */
+}
+
+
+
+.is-transitioning {
+    pointer-events: none; /* Ngăn chặn click trong quá trình transition */
+}
+
+
+.transition-button img {
+    transition: opacity 2s, transform 2s;
+    transform: scale(1);
+    opacity: 1;
+    width: 25px; 
+    height: 25px;
+    padding: 5px;
+    object-fit: cover;
+}
