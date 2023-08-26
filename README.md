@@ -19,7 +19,13 @@ chạy đường dẫn : http://localhost:3001/
 git clone https://github.com/cuongtsmbe/goldenowl-frontend
 ```
 ## Bước 2: vào thư mục chứa code vừa clone về 
-tại thư mục chứa file package.json thì ở cmd lên chạy lệnh: npm install
-
+tại thư mục chứa file package.json thì ở cmd lên chạy lệnh: 
+```bash
+npm install
+```
+Sau đó chạy lệnh 
+```bash
+npm start
+```
 ## Bước 3: Mở trình duyệt (brave,...)
 chạy đường dẫn : http://localhost:3000/
