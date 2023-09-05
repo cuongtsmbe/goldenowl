@@ -29,3 +29,6 @@ npm start
 ```
 ## Bước 3: Mở trình duyệt (brave,...)
 chạy đường dẫn : http://localhost:3000/
+
+![image](https://github.com/cuongtsmbe/goldenowl-frontend/assets/77524070/dd028851-cd00-4f40-b8d0-a502cf39ef57)
+
